@@ -51,7 +51,7 @@
         }
 
         .gradient-bg {
-            background: linear-gradient(135deg, #cbd3f7 0%, #d4ffc9 100%);
+            background: linear-gradient(135deg, #cfcfcf 0%, #092b00 100%)
         }
 
         .gradient-text {
@@ -313,144 +313,373 @@
             </div>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <div class="bg-white dark:bg-gray-900 rounded-2xl p-8 hover-lift fade-in shadow-lg">
+                <!-- Web Scripts -->
+                <div
+                    class="bg-white dark:bg-gray-900 rounded-2xl p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl shadow-lg">
                     <div
                         class="w-16 h-16 bg-purple-100 dark:bg-purple-900 rounded-full flex items-center justify-center mb-6">
                         <i class="fas fa-globe text-2xl text-purple-600"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-4">Web Scripts</h3>
-                    <p class="text-gray-600 dark:text-gray-400">Clean, well-documented, and ready-to-deploy web
-                        solutions.</p>
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-3">Web Scripts</h3>
+                    <p class="text-gray-600 dark:text-gray-400">Deploy-ready, modular, and optimized scripts for
+                        websites and web apps.</p>
                 </div>
 
-                <div class="bg-white dark:bg-gray-900 rounded-2xl p-8 hover-lift fade-in shadow-lg">
+                <!-- Mobile Apps -->
+                <div
+                    class="bg-white dark:bg-gray-900 rounded-2xl p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl shadow-lg">
                     <div
                         class="w-16 h-16 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mb-6">
-                        <i class="fas fa-mobile text-2xl text-blue-600"></i>
+                        <i class="fas fa-mobile-alt text-2xl text-blue-600"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-4">Mobile Apps</h3>
-                    <p class="text-gray-600 dark:text-gray-400">Cross-platform mobile applications with native
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-3">Mobile Apps</h3>
+                    <p class="text-gray-600 dark:text-gray-400">Cross-platform mobile applications that deliver native
                         performance.</p>
                 </div>
 
-                <div class="bg-white dark:bg-gray-900 rounded-2xl p-8 hover-lift fade-in shadow-lg">
+                <!-- Custom Software -->
+                <div
+                    class="bg-white dark:bg-gray-900 rounded-2xl p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl shadow-lg">
                     <div
                         class="w-16 h-16 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mb-6">
                         <i class="fas fa-cogs text-2xl text-green-600"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-4">Custom Software</h3>
-                    <p class="text-gray-600 dark:text-gray-400">Tailored systems built to match your business goals.</p>
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-3">Custom Software</h3>
+                    <p class="text-gray-600 dark:text-gray-400">Tailored software built to streamline your business
+                        operations.</p>
                 </div>
 
-                <div class="bg-white dark:bg-gray-900 rounded-2xl p-8 hover-lift fade-in shadow-lg">
+                <!-- UI/UX Design -->
+                <div
+                    class="bg-white dark:bg-gray-900 rounded-2xl p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl shadow-lg">
                     <div
                         class="w-16 h-16 bg-yellow-100 dark:bg-yellow-900 rounded-full flex items-center justify-center mb-6">
                         <i class="fas fa-paint-brush text-2xl text-yellow-600"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-4">UI/UX Design</h3>
-                    <p class="text-gray-600 dark:text-gray-400">Fast, responsive, and user-friendly interfaces.</p>
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-3">UI/UX Design</h3>
+                    <p class="text-gray-600 dark:text-gray-400">Modern, responsive interfaces focused on user
+                        experience.</p>
+                </div>
+
+                <!-- Cloud Solutions -->
+                <div
+                    class="bg-white dark:bg-gray-900 rounded-2xl p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl shadow-lg">
+                    <div
+                        class="w-16 h-16 bg-cyan-100 dark:bg-cyan-900 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-cloud text-2xl text-cyan-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-3">Cloud Solutions</h3>
+                    <p class="text-gray-600 dark:text-gray-400">Scalable cloud infrastructure for storage, computing,
+                        and deployments.</p>
+                </div>
+
+                <!-- E-Commerce Development -->
+                <div
+                    class="bg-white dark:bg-gray-900 rounded-2xl p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl shadow-lg">
+                    <div
+                        class="w-16 h-16 bg-pink-100 dark:bg-pink-900 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-shopping-cart text-2xl text-pink-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-3">E-Commerce Development</h3>
+                    <p class="text-gray-600 dark:text-gray-400">Secure and scalable online store platforms with smooth
+                        checkout flows.</p>
+                </div>
+
+                <!-- API Integration -->
+                <div
+                    class="bg-white dark:bg-gray-900 rounded-2xl p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl shadow-lg">
+                    <div
+                        class="w-16 h-16 bg-indigo-100 dark:bg-indigo-900 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-plug text-2xl text-indigo-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-3">API Integration</h3>
+                    <p class="text-gray-600 dark:text-gray-400">Connect your systems seamlessly with third-party
+                        platforms and services.</p>
+                </div>
+
+                <!-- Tech Consulting -->
+                <div
+                    class="bg-white dark:bg-gray-900 rounded-2xl p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl shadow-lg">
+                    <div
+                        class="w-16 h-16 bg-red-100 dark:bg-red-900 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-lightbulb text-2xl text-red-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-3">Tech Consulting</h3>
+                    <p class="text-gray-600 dark:text-gray-400">Strategic guidance to help you make smarter technology
+                        investments.</p>
                 </div>
             </div>
+
 
             <!-- Tech Stack -->
             <div class="mt-20 fade-in">
                 <h3 class="text-3xl font-bold text-center text-gray-800 dark:text-white mb-12">Our Tech Stack</h3>
-                <div class="flex flex-wrap justify-center gap-6">
+                <div class="flex flex-wrap justify-center gap-4 md:gap-6">
+
+                    <!-- Stack Item -->
                     <div
-                        class="bg-white dark:bg-gray-900 px-6 py-4 rounded-full shadow-lg hover:shadow-xl transition-shadow">
-                        <span class="text-gray-800 dark:text-white font-semibold">PHP</span>
+                        class="flex items-center gap-2 bg-white dark:bg-gray-900 px-5 py-3 rounded-full shadow-md hover:shadow-lg transition duration-300">
+                        <i class="fab fa-php text-indigo-600 dark:text-indigo-400"></i>
+                        <span class="text-gray-800 dark:text-white font-medium">PHP</span>
                     </div>
+
                     <div
-                        class="bg-white dark:bg-gray-900 px-6 py-4 rounded-full shadow-lg hover:shadow-xl transition-shadow">
-                        <span class="text-gray-800 dark:text-white font-semibold">Laravel</span>
+                        class="flex items-center gap-2 bg-white dark:bg-gray-900 px-5 py-3 rounded-full shadow-md hover:shadow-lg transition duration-300">
+                        <i class="fab fa-laravel text-red-600 dark:text-red-400"></i>
+                        <span class="text-gray-800 dark:text-white font-medium">Laravel</span>
                     </div>
+
                     <div
-                        class="bg-white dark:bg-gray-900 px-6 py-4 rounded-full shadow-lg hover:shadow-xl transition-shadow">
-                        <span class="text-gray-800 dark:text-white font-semibold">Node.js</span>
+                        class="flex items-center gap-2 bg-white dark:bg-gray-900 px-5 py-3 rounded-full shadow-md hover:shadow-lg transition duration-300">
+                        <i class="fab fa-node-js text-green-600 dark:text-green-400"></i>
+                        <span class="text-gray-800 dark:text-white font-medium">Node.js</span>
                     </div>
+
                     <div
-                        class="bg-white dark:bg-gray-900 px-6 py-4 rounded-full shadow-lg hover:shadow-xl transition-shadow">
-                        <span class="text-gray-800 dark:text-white font-semibold">React</span>
+                        class="flex items-center gap-2 bg-white dark:bg-gray-900 px-5 py-3 rounded-full shadow-md hover:shadow-lg transition duration-300">
+                        <i class="fab fa-react text-blue-600 dark:text-blue-400"></i>
+                        <span class="text-gray-800 dark:text-white font-medium">React</span>
                     </div>
+
                     <div
-                        class="bg-white dark:bg-gray-900 px-6 py-4 rounded-full shadow-lg hover:shadow-xl transition-shadow">
-                        <span class="text-gray-800 dark:text-white font-semibold">Flutter</span>
+                        class="flex items-center gap-2 bg-white dark:bg-gray-900 px-5 py-3 rounded-full shadow-md hover:shadow-lg transition duration-300">
+                        <i class="fas fa-mobile-alt text-pink-600 dark:text-pink-400"></i>
+                        <span class="text-gray-800 dark:text-white font-medium">Flutter</span>
                     </div>
+
                     <div
-                        class="bg-white dark:bg-gray-900 px-6 py-4 rounded-full shadow-lg hover:shadow-xl transition-shadow">
-                        <span class="text-gray-800 dark:text-white font-semibold">MySQL</span>
+                        class="flex items-center gap-2 bg-white dark:bg-gray-900 px-5 py-3 rounded-full shadow-md hover:shadow-lg transition duration-300">
+                        <i class="fas fa-database text-yellow-600 dark:text-yellow-400"></i>
+                        <span class="text-gray-800 dark:text-white font-medium">MySQL</span>
                     </div>
+
                     <div
-                        class="bg-white dark:bg-gray-900 px-6 py-4 rounded-full shadow-lg hover:shadow-xl transition-shadow">
-                        <span class="text-gray-800 dark:text-white font-semibold">MongoDB</span>
+                        class="flex items-center gap-2 bg-white dark:bg-gray-900 px-5 py-3 rounded-full shadow-md hover:shadow-lg transition duration-300">
+                        <i class="fas fa-leaf text-green-700 dark:text-green-400"></i>
+                        <span class="text-gray-800 dark:text-white font-medium">MongoDB</span>
                     </div>
+
+                    <div
+                        class="flex items-center gap-2 bg-white dark:bg-gray-900 px-5 py-3 rounded-full shadow-md hover:shadow-lg transition duration-300">
+                        <i class="fab fa-js-square text-yellow-500 dark:text-yellow-300"></i>
+                        <span class="text-gray-800 dark:text-white font-medium">JavaScript</span>
+                    </div>
+
+                    <div
+                        class="flex items-center gap-2 bg-white dark:bg-gray-900 px-5 py-3 rounded-full shadow-md hover:shadow-lg transition duration-300">
+                        <i class="fab fa-html5 text-orange-600 dark:text-orange-400"></i>
+                        <span class="text-gray-800 dark:text-white font-medium">HTML5</span>
+                    </div>
+
+                    <div
+                        class="flex items-center gap-2 bg-white dark:bg-gray-900 px-5 py-3 rounded-full shadow-md hover:shadow-lg transition duration-300">
+                        <i class="fab fa-css3-alt text-blue-500 dark:text-blue-300"></i>
+                        <span class="text-gray-800 dark:text-white font-medium">CSS3</span>
+                    </div>
+
+                    <div
+                        class="flex items-center gap-2 bg-white dark:bg-gray-900 px-5 py-3 rounded-full shadow-md hover:shadow-lg transition duration-300">
+                        <i class="fab fa-bootstrap text-purple-600 dark:text-purple-400"></i>
+                        <span class="text-gray-800 dark:text-white font-medium">Bootstrap</span>
+                    </div>
+
+                    <div
+                        class="flex items-center gap-2 bg-white dark:bg-gray-900 px-5 py-3 rounded-full shadow-md hover:shadow-lg transition duration-300">
+                        <i class="fab fa-python text-blue-700 dark:text-blue-400"></i>
+                        <span class="text-gray-800 dark:text-white font-medium">Python</span>
+                    </div>
+
+                    <div
+                        class="flex items-center gap-2 bg-white dark:bg-gray-900 px-5 py-3 rounded-full shadow-md hover:shadow-lg transition duration-300">
+                        <i class="fab fa-git-alt text-orange-500 dark:text-orange-300"></i>
+                        <span class="text-gray-800 dark:text-white font-medium">Git</span>
+                    </div>
+
+                    <div
+                        class="flex items-center gap-2 bg-white dark:bg-gray-900 px-5 py-3 rounded-full shadow-md hover:shadow-lg transition duration-300">
+                        <i class="fab fa-docker text-blue-600 dark:text-blue-300"></i>
+                        <span class="text-gray-800 dark:text-white font-medium">Docker</span>
+                    </div>
+
+                    <div
+                        class="flex items-center gap-2 bg-white dark:bg-gray-900 px-5 py-3 rounded-full shadow-md hover:shadow-lg transition duration-300">
+                        <i class="fab fa-aws text-orange-400 dark:text-orange-300"></i>
+                        <span class="text-gray-800 dark:text-white font-medium">AWS</span>
+                    </div>
+
                 </div>
             </div>
+
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="py-20 bg-white dark:bg-gray-900">
+    <section id="products" class="py-20 bg-white dark:bg-gray-900">
         <div class="container mx-auto px-6">
             <div class="text-center mb-16 fade-in">
-                <h2 class="text-5xl font-bold gradient-text mb-6">Featured Projects</h2>
+                <h2 class="text-5xl font-bold gradient-text mb-6">Our Top-Tier Solutions</h2>
                 <p class="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-                    Showcase of our latest and greatest digital solutions
+                    Purpose-built products designed to solve real business challenges across industries.
                 </p>
             </div>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-gray-100 dark:bg-gray-800 rounded-2xl overflow-hidden hover-lift fade-in shadow-lg">
-                    <div class="h-48 bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
-                        <i class="fas fa-shopping-cart text-4xl text-white"></i>
+
+                <!-- MediCareBD -->
+                <div
+                    class="bg-gray-100 dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                    <div class="h-48 bg-gradient-to-br from-rose-500 to-pink-500 flex items-center justify-center">
+                        <i class="fas fa-heartbeat text-4xl text-white"></i>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-3">E-Commerce Platform</h3>
-                        <p class="text-gray-600 dark:text-gray-400 mb-4">Full-featured online store with payment
-                            integration</p>
+                        <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-2">MediCareBD</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">Hospital management system with EHR, pharmacy,
+                            and billing integration.</p>
                         <div class="flex flex-wrap gap-2">
                             <span
-                                class="px-3 py-1 bg-purple-100 dark:bg-purple-900 text-purple-600 text-sm rounded-full">Laravel</span>
+                                class="bg-red-100 dark:bg-red-900 text-red-600 text-sm px-3 py-1 rounded-full">Laravel</span>
                             <span
-                                class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-600 text-sm rounded-full">React</span>
+                                class="bg-teal-100 dark:bg-teal-900 text-teal-600 text-sm px-3 py-1 rounded-full">MySQL</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="bg-gray-100 dark:bg-gray-800 rounded-2xl overflow-hidden hover-lift fade-in shadow-lg">
-                    <div class="h-48 bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center">
-                        <i class="fas fa-chart-line text-4xl text-white"></i>
+                <!-- EduTrackBD -->
+                <div
+                    class="bg-gray-100 dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                    <div class="h-48 bg-gradient-to-br from-indigo-500 to-purple-500 flex items-center justify-center">
+                        <i class="fas fa-school text-4xl text-white"></i>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-3">Analytics Dashboard</h3>
-                        <p class="text-gray-600 dark:text-gray-400 mb-4">Real-time data visualization and reporting</p>
+                        <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-2">EduTrackBD</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">School management platform for attendance,
+                            grading, and LMS.</p>
                         <div class="flex flex-wrap gap-2">
                             <span
-                                class="px-3 py-1 bg-green-100 dark:bg-green-900 text-green-600 text-sm rounded-full">Node.js</span>
+                                class="bg-indigo-100 dark:bg-indigo-900 text-indigo-600 text-sm px-3 py-1 rounded-full">PHP</span>
                             <span
-                                class="px-3 py-1 bg-yellow-100 dark:bg-yellow-900 text-yellow-600 text-sm rounded-full">MongoDB</span>
+                                class="bg-blue-100 dark:bg-blue-900 text-blue-600 text-sm px-3 py-1 rounded-full">Bootstrap</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="bg-gray-100 dark:bg-gray-800 rounded-2xl overflow-hidden hover-lift fade-in shadow-lg">
-                    <div class="h-48 bg-gradient-to-br from-green-500 to-teal-500 flex items-center justify-center">
-                        <i class="fas fa-mobile-alt text-4xl text-white"></i>
+                <!-- ShopBazaar -->
+                <div
+                    class="bg-gray-100 dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                    <div class="h-48 bg-gradient-to-br from-orange-500 to-yellow-500 flex items-center justify-center">
+                        <i class="fas fa-store text-4xl text-white"></i>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-3">Mobile Banking App</h3>
-                        <p class="text-gray-600 dark:text-gray-400 mb-4">Secure financial transactions on the go</p>
+                        <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-2">ShopBazaar</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">Multi-vendor eCommerce with POS, inventory, and
+                            payments.</p>
                         <div class="flex flex-wrap gap-2">
                             <span
-                                class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-600 text-sm rounded-full">Flutter</span>
+                                class="bg-yellow-100 dark:bg-yellow-900 text-yellow-600 text-sm px-3 py-1 rounded-full">React</span>
                             <span
-                                class="px-3 py-1 bg-red-100 dark:bg-red-900 text-red-600 text-sm rounded-full">Firebase</span>
+                                class="bg-purple-100 dark:bg-purple-900 text-purple-600 text-sm px-3 py-1 rounded-full">Laravel</span>
                         </div>
                     </div>
                 </div>
+
+                <!-- QuickPOS -->
+                <div
+                    class="bg-gray-100 dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                    <div class="h-48 bg-gradient-to-br from-cyan-500 to-blue-500 flex items-center justify-center">
+                        <i class="fas fa-cash-register text-4xl text-white"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-2">QuickPOS</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">Retail POS system with barcode scanning and
+                            sales reporting.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="bg-cyan-100 dark:bg-cyan-900 text-cyan-600 text-sm px-3 py-1 rounded-full">Vue.js</span>
+                            <span
+                                class="bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white text-sm px-3 py-1 rounded-full">SQLite</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AccounTrack -->
+                <div
+                    class="bg-gray-100 dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                    <div class="h-48 bg-gradient-to-br from-green-500 to-emerald-500 flex items-center justify-center">
+                        <i class="fas fa-file-invoice-dollar text-4xl text-white"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-2">AccounTrack</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">Accounting & inventory system with invoicing
+                            and tax tools.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="bg-green-100 dark:bg-green-900 text-green-600 text-sm px-3 py-1 rounded-full">Node.js</span>
+                            <span
+                                class="bg-yellow-100 dark:bg-yellow-900 text-yellow-600 text-sm px-3 py-1 rounded-full">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ClientDesk -->
+                <div
+                    class="bg-gray-100 dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                    <div class="h-48 bg-gradient-to-br from-pink-500 to-fuchsia-500 flex items-center justify-center">
+                        <i class="fas fa-users-cog text-4xl text-white"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-2">ClientDesk</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">CRM for lead tracking, customer engagement, and
+                            support.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="bg-pink-100 dark:bg-pink-900 text-pink-600 text-sm px-3 py-1 rounded-full">Vue.js</span>
+                            <span
+                                class="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white text-sm px-3 py-1 rounded-full">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PayRoller -->
+                <div
+                    class="bg-gray-100 dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                    <div class="h-48 bg-gradient-to-br from-yellow-500 to-amber-500 flex items-center justify-center">
+                        <i class="fas fa-user-clock text-4xl text-white"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-2">PayRoller</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">HR & payroll system for attendance, salary, and
+                            leave tracking.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="bg-amber-100 dark:bg-amber-900 text-amber-600 text-sm px-3 py-1 rounded-full">Django</span>
+                            <span
+                                class="bg-indigo-100 dark:bg-indigo-900 text-indigo-600 text-sm px-3 py-1 rounded-full">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RealNest -->
+                <div
+                    class="bg-gray-100 dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                    <div class="h-48 bg-gradient-to-br from-blue-700 to-indigo-700 flex items-center justify-center">
+                        <i class="fas fa-home text-4xl text-white"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-2">RealNest</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">Real estate management platform with CRM and
+                            property listings.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="bg-blue-100 dark:bg-blue-900 text-blue-600 text-sm px-3 py-1 rounded-full">Next.js</span>
+                            <span
+                                class="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white text-sm px-3 py-1 rounded-full">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
+
 
     <!-- Contact Section -->
     <section id="contact" class="py-20 gradient-bg">
